@@ -44,7 +44,7 @@ function Description:mount()
         synmaxcol = 0,
     })
     ui_utils.win_set_opts(self.winid, {
-        winhighlight = "Normal:NormalFloat,FloatBorder:FloatBorder",
+        -- winhighlight = "Normal:NormalFloat,FloatBorder:FloatBorder",
         wrap = not img_sup,
         colorcolumn = "",
         foldlevel = 999,

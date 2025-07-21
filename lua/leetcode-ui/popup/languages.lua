@@ -93,7 +93,7 @@ function Languages:init()
                 left = 3,
                 right = 3,
             },
-            style = "rounded",
+            style = "single",
             text = {
                 top = (" %s "):format(t("Languages")),
             },

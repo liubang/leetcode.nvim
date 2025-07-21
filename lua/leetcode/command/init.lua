@@ -42,7 +42,7 @@ function cmd.cookie_prompt(cb)
         },
         size = 40,
         border = {
-            style = "rounded",
+            style = "single",
             text = {
                 top = (" %s "):format(t("Enter cookie")),
                 top_align = "left",

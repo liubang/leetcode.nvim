@@ -34,12 +34,13 @@ local function entry_maker(item)
     }
 end
 
-local theme = require("telescope.themes").get_dropdown({
-    layout_config = {
-        width = question_picker.width,
-        height = question_picker.height,
-    },
-})
+-- local theme = require("telescope.themes").get_dropdown({
+--     layout_config = {
+--         width = question_picker.width,
+--         height = question_picker.height,
+--     },
+-- })
+local theme = {}
 
 ---@param questions lc.cache.Question[]
 return function(questions, opts)

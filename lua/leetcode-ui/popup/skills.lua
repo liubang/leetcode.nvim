@@ -77,7 +77,7 @@ function Skills:init()
                 left = 3,
                 right = 3,
             },
-            style = "rounded",
+            style = "single",
             text = {
                 top = " Skills ",
             },

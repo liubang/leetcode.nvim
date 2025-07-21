@@ -114,7 +114,7 @@ function Popup:init(opts)
                 left = 3,
                 right = 3,
             },
-            style = "rounded",
+            style = "single",
         },
         buf_options = {
             filetype = config.name,
