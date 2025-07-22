@@ -210,6 +210,9 @@ function Question:inject(before)
         res = inj
     end
 
+    local fn = self.q.title_slug:gsub("-", "_")
+    res = res:gsub("<FILE_NAME_NOEXT>", fn)
+
     if res and res ~= "" then
         return res
     else
