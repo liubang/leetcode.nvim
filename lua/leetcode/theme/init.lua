@@ -22,6 +22,7 @@ local highlights = {
     a = "link",
     example = "example",
     constraints = "constraints",
+    p = "normal",
     code = "code",
     input = "header",
     output = "header",
@@ -30,6 +31,7 @@ local highlights = {
 
     sup = "su",
     sub = "su",
+    pre = "",
 
     -- pre = "",
     -- span = "",
